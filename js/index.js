@@ -1,16 +1,27 @@
 //Log out a message to show you've got JavaScript running
 
-
+console.log("Scipt running");
 
 
 //Define a variable `myName` and log it out
 
-
+let myName = "Sandra Bobman";
+console.log(myName)
 
 
 //Define a function `getVowelCount()`
 
-
+function getVowelCount(aString) {
+    let lowerCaseString = toLowerCase(aString);
+    modifiedString = lowerCaseString.replaceAll("a","");
+    modifiedString = lowerCaseString.replaceAll("e","");
+    modifiedString = lowerCaseString.replaceAll("i","");
+    modifiedString = lowerCaseString.replaceAll("o","");
+    modifiedString = lowerCaseString.replaceAll("u","");
+    modifiedString = lowerCaseString.replaceAll("y","");
+    
+    
+}
 
 
 //Define a variable `numVowelsInName` and log it out
